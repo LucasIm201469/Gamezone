@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="Homepage.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="Games.html">Back to Games</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="main-title">Guess the Number</h1>
+        <p class="main-description">Try to guess the number between 1 and 100 in this larger and more interactive game!</p>
+        <input type="number" id="guess" placeholder="Enter your guess">
+        <button onclick="checkGuess()">Submit Guess</button>
+        <p id="game-message"></p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Gamezone. All rights reserved.</p>
+    </footer>
+    <script src="Games.js"></script>
+</body>
+</html>

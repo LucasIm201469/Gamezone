@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="Homepage.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="Games.html">Back to Games</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="main-title">Tic Tac Toe</h1>
+        <p class="main-description">Play against a friend in this larger and more colorful Tic Tac Toe game!</p>
+        <div id="tic-tac-toe-board">
+            <div class="cell" onclick="makeMove(0)"></div>
+            <div class="cell" onclick="makeMove(1)"></div>
+            <div class="cell" onclick="makeMove(2)"></div>
+            <div class="cell" onclick="makeMove(3)"></div>
+            <div class="cell" onclick="makeMove(4)"></div>
+            <div class="cell" onclick="makeMove(5)"></div>
+            <div class="cell" onclick="makeMove(6)"></div>
+            <div class="cell" onclick="makeMove(7)"></div>
+            <div class="cell" onclick="makeMove(8)"></div>
+        </div>
+        <p id="tic-tac-toe-message"></p>
+        <button onclick="resetGame()">Restart Game</button>
+    </main>
+    <footer>
+        <p>&copy; 2025 Gamezone. All rights reserved.</p>
+    </footer>
+    <script src="TicTacToe.js"></script>
+</body>
+</html>
